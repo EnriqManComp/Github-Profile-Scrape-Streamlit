@@ -1,1 +1,36 @@
 # Github-Profile-Scrape-Streamlit
+
+## Description
+In this project, a web application was developed utilizing Streamlit for the purpose of scraping GitHub user information. The application presents fundamental user information along with their repositories.
+
+## Check crawl rules
+Verify if there are some restriction policy to get the user information in the next URL: <code>https://github.com/robots.txt</code>
+
+## Required Libraries
+```python
+
+pip install beautifulsoup4, streamlit
+
+```
+
+## Gathering github profile data
+
+<p>The URL <code>https://github.com/{user_name}?tab=repositories</code> contains the user's information and their public repositories. The contents of the page will be obtained using the requests library.</p>
+
+## Relevant data fields
+The following user information will be scrape from the page requested:
+### Information about the user
+- Username
+- Image
+- Number of followers
+- Number of users following
+- Location
+- Portfolio or website URL
+### Information about user's repositories.
+- Name
+- URL
+- Last update
+- Programming language used
+- Description
+
+
