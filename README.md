@@ -1,9 +1,8 @@
 # Github-Profile-Scrape-Streamlit
 
-## Description
 In this project, a web application was developed utilizing Streamlit for the purpose of scraping GitHub user information. The application presents fundamental user information along with their repositories.
 
-## Check crawl rules
+## Check scraping rules
 Verify if there are some restriction policy to get the user information in the next URL: <code>https://github.com/robots.txt</code>
 
 ## Required Libraries
@@ -40,7 +39,9 @@ To run the streamlit app on localhost, you need to execute the following command
 ```cmd
 streamlit run streamlit_app.py
 ```
-
-
-
+## Example
+<div align="center">
+  <img src="example_1.png" alt="EnriqManComp_example1">
+  <img src="example_2.png" alt="EnriqManComp_example2">
+</div>
 
